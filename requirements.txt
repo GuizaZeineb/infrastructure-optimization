@@ -1,3 +1,5 @@
 pandas
 ipykernel
 matplotlib
+pytest
+pydantic
