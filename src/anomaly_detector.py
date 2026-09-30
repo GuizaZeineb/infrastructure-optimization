@@ -39,14 +39,14 @@ def detect_anomaly(metrics):
     if regime == "medium":
         severity = "medium"
         description = (
-            "Moderate system degradation detected "
-            "based on CPU usage and latency."
+            "Dégradation modérée détectée sur la base "
+            "de l'utilisation CPU et de la latence.."
         )
     else:
         severity = "high"
         description = (
-            "High system degradation detected "
-            "based on CPU usage and latency."
+            "Forte dégradation détectée sur la base "
+            "de l'utilisation CPU et de la latence.."
         )
 
     return {
