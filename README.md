@@ -90,32 +90,37 @@ Elle permet notamment d'observer les distributions des métriques, leur évoluti
 
 ## Structure du projet
 
-data/
-    rapport.json
+```text
+data/         
+    rapport.json         
 
-notebooks/
-    01_eda.ipynb
+notebooks/         
+    01_eda.ipynb         
 
-src/
-    analysis.py
-    anomaly_detector.py
-    episode_detector.py
-    ingestion.py
-    main.py
-    models.py
-    recommendation.py
+src/         
+    analysis.py         
+    anomaly_detector.py         
+    episode_detector.py         
+    ingestion.py         
+    main.py         
+    models.py         
+    recommendation.py         
 
-tests/
-    test_analysis.py
-    test_anomaly_detector.py
-    test_episode_detector.py
-    test_ingestion.py
-    test_models.py
-    test_recommendation.py
-    test_main.py
+tests/         
+    test_analysis.py         
+    test_anomaly_detector.py         
+    test_episode_detector.py         
+    test_ingestion.py         
+    test_main.py 
+    test_models.py         
+    test_recommendation.py         
+            
 
-output.json
-requirements.txt
+output.json 
 pyproject.toml
-README.md
+README.md        
+requirements.txt         
+         
+
+```
 
